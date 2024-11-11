@@ -23,3 +23,20 @@ To run this project, you need to have Docker installed on your machine. If you d
 
    ```bash
    git clone https://github.com/klever1995/Example3.git
+
+2. **Pull the Docker image:** 
+   Before running the container, pull the Docker image with the following command:
+
+   ```bash
+   docker pull ksrobalino/example_javascript:v1
+
+3. **Run the Docker container:** 
+   After pulling the image, run the container using this command:
+
+   ```bash
+   docker run -d -p 3000:3000 --name mi_contenedor ksrobalino/example_javascript:v1
+
+4. **Access the application:** 
+   Once the container is running, you can access the application by navigating to the following URL in your web browser:
+   http://localhost:3000
+   
